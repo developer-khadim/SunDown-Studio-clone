@@ -128,7 +128,6 @@ nav {
     width: 46vw;
     right: 0;
     top: 67vh;
-    
 }
 
 #hero1 {
@@ -186,8 +185,66 @@ nav {
     }
 }
 
+/* Responsive page 1  */
+@media (max-width: 1280px){
+#left {
+    width: 45vw;
+    
+}
+    #left h3 {
+    font-size: 2.5vw;
+    line-height: 2vw;
+}
+}
+@media (max-width:1024px) {
+    #main{
+        overflow-y: hidden;
+    }
+    #center {
+        height: 40vh;
+        width: 100%;
+   }
+   #page1{
+    padding: 0 4vw;
+   
+   }
+    
+}
+@media (max-width: 640px) {
+    *{
+        font-family: font1;
+    }
+    #page1{
+        width: 100vw;
+        min-height: 2vh;
+    }
+    #center {
+        height: 30vh;
+        width: 100%;
+   }
+   #left{
+    width: 47vw;
+   }
+   #left h3{
+    font-size: 3vw;
+    line-height: 3.0vw;
+   }
+   #right h1 {
+    font-size: 7vw;
+   }
+
+#hero-shape {
+    position: absolute;
+    height: 36vw;
+    width: 46vw;
+    right: 0;
+    top: 35vh;
+}
+
+}
+
 #page2{
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
     background-color:#efeae3;
     padding: 8vw 0;
@@ -212,8 +269,8 @@ font-size: 8vw;
 display: inline-block;
 }
 #gola{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     background-color: #FE320A;
     border-radius: 50%;
     display: inline-block;
@@ -256,4 +313,51 @@ border-radius: 15px;
     font-weight: 200;
     margin-top: 2vw;
     font-size: 1.5vw;
+}
+/* Responsive page 2 */
+@media (max-width: 1280px){
+#gola{
+    width: 5vw;
+    height: 6vh;
+  
+}
+}
+@media (max-width:1024px){
+    #gola{
+        width: 40px;
+        height: 40px;
+    }
+    #page2-bottom{
+        height: 50vh;
+        width: 100%; 
+    }
+    #page2{
+    padding: 8vw 0;
+}
+}
+@media (max-width: 640px){
+    #page2{
+        height: 60vh;
+        
+    }
+    #gola{
+        width: 25px;
+        height: 25px;
+    }
+    #page2-bottom{
+        width: 100%;
+        height: 35vh;
+    }
+    #page2-bottom h1{
+width: 57%;
+}
+#bottom-part2{
+    width: 35%;
+}
+#bottom-part2 p{
+    font-family: font3;
+    font-weight: 200;
+    margin-top: 2vw;
+    font-size: 2vw;
+}
 }
