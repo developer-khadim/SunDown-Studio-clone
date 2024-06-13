@@ -93,6 +93,9 @@ nav {
     position: relative;
     z-index: 9;
 }
+nav h3 i{
+  
+}
 
 #nav-part2 h4:hover a {
     color: #fff;
@@ -420,13 +423,69 @@ nav h3 {
 #footer-div {
     height: 20vh;
     width: 100%;
-    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+}
+.f-left  {
+width: 20vw;
+}
+.f-left h3{
+    font-size: 2.7vw;
+}
+
+.f-right{
+    width: 25vw;
+    font-weight: 200;
+
+}
+.f-right p{
+    font-size: 1.6vw;
+    padding-bottom: 1.5vw;
+}
+.f-right .input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(173, 173, 173, 0.753); 
+    width: 25vw;
+    padding: 1vw 0;
+}
+input::placeholder{
+    color: rgba(173, 173, 173, 0.753);
+    font-weight: 200;
+}
+.input-container {
+  position: relative;  
+}
+
+.input {
+  padding-right: 30px;  
+  border: 1px solid #ccc;  
+  border-radius: 3px;  
+}
+i {
+  position: absolute;
+  top: 50%;
+  right: 10px;  
+  transform: translateY(-50%); 
+  font-size: 20px;  
+  color: #ccc;  
 }
 
 #footer-bottom {
     border-top: 1px solid #dadada;
-    height: 10vh;
+    height: 5vh;
     width: 100%;
+ }
+#footer-bottom .f-links{
+ padding: 1.5vw 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.f-links p{
+font-weight: 200;
 }
 
 #full-scr {
@@ -478,7 +537,6 @@ nav h3 {
         border-radius: 50px;
         font-size: 4vw;
         font-weight: 200;
-        padding-left: 10vw;
     }
 
     #center {
