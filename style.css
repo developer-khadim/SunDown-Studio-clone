@@ -672,7 +672,24 @@ font-weight: 200;
         animation-timing-function: ease-in-out;
 
     }
-
+    #page5{
+        height: 35vh;
+    }
+    #footer-div .f-left h3{
+        font-size: 20px;
+    }
+    .f-right{
+        width: 150px;
+    }
+    .f-right p{
+        font-size: 10px;
+    }
+    .input-container .input {
+            width: 35vw;
+    }
+    .f-links p{
+        font-size: 11px;
+    }
 
 }
 
@@ -693,7 +710,6 @@ font-weight: 200;
     font-size: 4vw;
     color: transparent;
     background: linear-gradient(to right,orange,orangered);
-    -webkit-background-clip: text;
     position: absolute;
     opacity: 0;
     animation-name: load;
